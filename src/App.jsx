@@ -10,7 +10,7 @@ export class App extends React.Component {
     this.setState({ ...this.state, counter: this.state.counter + 1 });
   };
 
-  // Неккорктно работает функция double поправь пожалуйста
+  // Неккорктно работает функция double поправьте пожалуйста
   double = () => {
     this.increment();
     this.increment();
